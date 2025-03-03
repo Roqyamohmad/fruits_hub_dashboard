@@ -5,7 +5,7 @@ class AddProductEntitites {
   final bool isFeatured;
   final num price;
   final File image;
-  final String? imageUrl;
+  String? imageUrl;
   AddProductEntitites(
       {required this.name,
       required this.code,
